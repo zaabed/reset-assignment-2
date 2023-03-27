@@ -213,6 +213,33 @@ p {
     width: 100%;
 }
 
+/* ----------------------------------------------- */
+.some-blogs {
+    margin-top: 50px;
+}
+
+.some-blogs h1 {
+    text-align: center;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.blog-question {
+    border: 2px solid #FF900E;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.blog-question h4,
+p {
+    text-align: start;
+}
+
 /* Footer Section */
 
 .footer-container {
@@ -272,6 +299,9 @@ p {
         margin-bottom: 30px;
     }
 
-
+    .blogs {
+        display: flex;
+        flex-direction: column;
+    }
 
 }
