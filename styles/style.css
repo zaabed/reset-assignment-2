@@ -163,6 +163,10 @@ body {
     margin-top: 50px;
 }
 
+.facts-section p {
+    text-align: start;
+}
+
 .facts-section h2 {
     margin-bottom: 10px;
 }
@@ -219,4 +223,55 @@ p {
 
 .footer-container p {
     text-align: center;
+}
+
+/*--------------
+--------- Media Query--------- */
+
+@media only screen and (max-width:688px) {
+    body {
+        margin: 0;
+        width: 100%;
+    }
+
+    .banner-container {
+        display: none;
+    }
+
+    .features-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .features-images {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .another-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .facts-variations {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .facts-finish {
+        width: 100%;
+    }
+
+    .sponsors-images {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sponsors-images img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+
+
 }
