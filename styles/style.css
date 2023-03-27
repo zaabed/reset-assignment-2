@@ -27,3 +27,40 @@ body {
 .menu-list li {
     list-style-type: none;
 }
+
+.banner-details {
+    margin-top: 120px;
+}
+
+.banner-heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.banner-button {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FF900E;
+    border: 0;
+    padding: 12px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+
+.banner-image {
+    margin-top: 50px;
+}
+
+.banner-image img {
+    width: 100%;
+}
